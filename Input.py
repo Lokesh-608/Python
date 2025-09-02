@@ -45,3 +45,8 @@ print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
+
+#indention 
+a = "This is lokesh"
+print(a)
+  
