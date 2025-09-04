@@ -100,3 +100,60 @@ c = d.keys()
 print(c)
 c = d.values()
 print(c)
+
+#complex numbers
+z1 = 2 + 3j
+z2 = 1 + 5j
+
+a = z1 + z2
+b = z1 * z2
+c = z1 - z2
+d = z1 / z2
+print(a,b,c,d)
+
+#boolean
+x = 10
+y = 5
+
+print(f"Is x equal to y? {x == y}")
+print(f"Is x greater than y? {x > y}")
+print(f"Is x not equal to y? {x != y}")
+
+#Access a value from a dictionary using its key.
+t = {"1":"loki","2":"ashri"}
+print(t["1"])
+#Create a set and print its type.
+s = {1,2,3}
+d = type(s)
+print(d)
+#Add an element to a set.
+s = {1,2,3}
+s.add(4)
+print(f"{s}")
+#Create a list of numbers and print its type.
+l = ["1","2","lokesh","varun"]
+print(type(l))
+print(len(l))
+f = l[0]
+print(f"{f}")
+l.append("ashri")
+print(l)
+#Convert a string into a list of characters.
+s = "lokesh"
+l = list(s)
+print(l)
+#Store a string in a variable and print its type.
+a = "lokesh"
+print(type(a))
+#Add two integers and check the type of the result.
+a = 10 
+b = 20
+c = a+b
+print(c)
+print(type(c))
+#You are given a list that contains integers. You need to return the length of the list.
+arr = [1,2,3,4,5]
+print(len(arr))
+#You are given a list that contains integers. You need to return the sum of the list.
+arr = [1,2,3,4,5]
+print(sum(arr))
