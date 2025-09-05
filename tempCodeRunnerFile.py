@@ -1,2 +1,9 @@
-arr = [1,2,3,4,5]
-print(sum(arr))
+p = "  python life  "
+print(len(p))
+x = p.strip()
+print(len(x))
+a= p.lstrip()
+b= p.rstrip()
+print(a)
+print(b)
+print(len(a))
