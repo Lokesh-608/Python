@@ -1,2 +1,3 @@
-s="python"
-print(s[::-1])
+s="abcdef"
+print(s[:2:-1])
+

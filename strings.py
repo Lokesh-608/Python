@@ -62,12 +62,22 @@ print(s[2:])
 
 s = "python"
 print(s[:4])
-
+#start from 1 and end with 4
 s="python"
 print(s[1:4])
-
+#2nd char
 s="python"
 print(s[::2])
-
+#reverse the string
 s="python"
 print(s[::-1])
+#slice the note
+s="notebook"
+print(s[0:4])
+#slice the book
+s="notebook"
+print(s[4:])
+#reverse
+s="abcdef"
+print(s[:2:-1])
+
