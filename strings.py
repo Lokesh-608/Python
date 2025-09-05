@@ -40,3 +40,34 @@ b= p.rstrip()
 print(a)
 print(b)
 print(len(a))
+#indexing
+s = "python"
+print(s[0])
+#last character
+s="python"
+print(s[-1])
+#3rd chara
+s = "python"
+print(s[2])
+#second last char
+s="python"
+print(s[-2])
+
+#slicing
+s = "python"
+print(s[0:3])
+
+s ="python"
+print(s[2:])
+
+s = "python"
+print(s[:4])
+
+s="python"
+print(s[1:4])
+
+s="python"
+print(s[::2])
+
+s="python"
+print(s[::-1])
