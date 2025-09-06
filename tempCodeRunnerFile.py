@@ -1,3 +1,2 @@
-s="abcdef"
-print(s[:2:-1])
-
+s = "abcdef"
+print(s[-1:-4:-1])
