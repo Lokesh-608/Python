@@ -43,3 +43,15 @@ print(a^b)
 print(~a)
 print(a>>b)
 print(a<<b)
+
+#assingment operators
+x = 10
+y = 5
+y += x
+print(y)
+y -= x
+print(y)
+y *= x
+print(y)
+y <<= x
+print(y)
