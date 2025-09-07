@@ -1,10 +1,5 @@
-x = 10
-y = 5
-y += x
-print(y)
-y -= x
-print(y)
-y *= x
-print(y)
-y <<= x
-print(y)
+a = 5
+b = 3
+print(a&b)
+print(a|b)
+print(a^b)
