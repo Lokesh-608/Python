@@ -33,3 +33,13 @@ b = False
 print(a and b)
 print(a or b)
 print(not a)
+
+#bitwise operators
+a = 10
+b = 5
+print(a&b)
+print(a|b)
+print(a^b)
+print(~a)
+print(a>>b)
+print(a<<b)
