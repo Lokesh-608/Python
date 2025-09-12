@@ -30,3 +30,15 @@ print(t1 + t2)
 a = (1,2,3,4,5)
 print(len(a))
 
+#max
+a = (1,2,3,4,5,6)
+print(max(a))
+
+#min
+a = (1,2,3,4,5,6)
+print(min(a))
+
+#comparision
+a = (1,2,3)
+b = (1,2,4)
+print(a<b)
