@@ -1,5 +1,6 @@
-a = 5
-if a%5==0:
-  print("a is divisible of 5")
-else:
-  print("a is not divisible of 5")
+a = 200
+b = 33
+c = 500
+if a > b or c > a:
+  print("atleast one condition iss true")
+
