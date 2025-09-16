@@ -1,5 +1,5 @@
-a = 18
-if a>=18:
-  print("a is eligible for voting")
+a = 5
+if a%5==0:
+  print("a is divisible of 5")
 else:
-  print("a is not eligible for voting")
+  print("a is not divisible of 5")

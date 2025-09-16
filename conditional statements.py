@@ -21,3 +21,18 @@ if a>=18:
   print("a is eligible for voting")
 else:
   print("a is not eligible for voting")
+#check divisible
+a = 5
+if a%5==0:
+  print("a is divisible of 5")
+else:
+  print("a is not divisible of 5")
+  #elif
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
