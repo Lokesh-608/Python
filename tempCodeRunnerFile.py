@@ -1,5 +1,7 @@
-a = 33
-b = 200
-if not a > b:
-  print("a is NOT greater than b")
-
+x = 41
+if x > 10:
+  print("x is greater 10")
+  if x > 20:
+    print("x is greater then 10 and 20")
+  else:
+    print("x is not greater than 20")
