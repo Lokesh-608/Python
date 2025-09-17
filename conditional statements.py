@@ -72,5 +72,11 @@ def calculate(a, b, operator):
     else:
         print("Invalid Input", end="")  
         calculate(1, 2, 3) 
+#marks condition
+a = 50
+if a >= 40:
+ print("passed")
+ if a >= 75:
+   print("distinction")
 
 
