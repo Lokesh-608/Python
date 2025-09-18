@@ -1,4 +1,3 @@
-li = ["lokesh", "varun", "ram"]
-for i in li:
+t = ("apple", "mango", "pineapple")
+for i in t:
     print(i)
-    
