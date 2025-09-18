@@ -78,7 +78,7 @@ if a >= 40:
  print("passed")
  if a >= 75:
    print("distinction")
-#weather check
+#weather check nested if
 t = int(input("Enter temperature: "))
 if t < 20:
   print("cold")
@@ -86,5 +86,6 @@ if t < 20:
     print("pleasant")
     if t > 30:
       print("hot")
+      
 
 
