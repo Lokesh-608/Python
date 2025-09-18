@@ -1,3 +1,3 @@
-t = ("apple", "mango", "pineapple")
-for i in t:
+l = "lokesh"
+for i in l:
     print(i)
