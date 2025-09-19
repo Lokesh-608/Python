@@ -86,6 +86,14 @@ if t < 20:
     print("pleasant")
     if t > 30:
       print("hot")
+#Leap Year
+y = int(input("Enter year: "))
+if y%400==0:
+  print("It is leap year: ")
+elif y%4==0:
+  print("It is leap year: ")
+else:
+  print("It is not leap year: ")
       
 
 
