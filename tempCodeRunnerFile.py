@@ -1,6 +1,7 @@
 i = int(input("Enter number: "))
-if i%2==0:
-   print("It is even")
-   if i%4==0:
-      print("It is also even")
+s = int(input("Enter number: "))
+if i>s:
+   print("i is greater than s")
+else:
+   print("s is greater than i")
 
