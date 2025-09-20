@@ -94,14 +94,23 @@ else:
   print("It is not leap year: ")
   #Grade Calculator
 g = int(input("Enter marks: "))
-if 90 <= g <= 100:
+if 90 < g < 100:
     print("A Grade")
-elif 75 <= g <= 89:
+elif 75 < g < 89:
     print("B Grade")
-elif 50 <= g <= 74:
+elif 50 < g < 74:
     print("C Grade")
 elif g < 50:  
     print("Fail")
 else:
     print("Invalid marks entered.") 
+#check if number is even and also divisible by 4
+i = int(input("Enter number: "))
+if i%2==0:
+   print("It is even")
+   if i%4==0:
+      print("It is also even")
+   else:
+      print("the number is not even")
+    
 
