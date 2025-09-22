@@ -1,7 +1,5 @@
-i = int(input("Enter number: "))
-s = int(input("Enter number: "))
-if i>s:
-   print("i is greater than s")
-else:
-   print("s is greater than i")
-
+i = [1,2,3,4]
+for j in i:
+    print(j)
+    if j == 3:
+        break
