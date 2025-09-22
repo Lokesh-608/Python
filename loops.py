@@ -20,3 +20,6 @@ for j in i:
     print(j)
     if j == 3:
         break
+
+for x in range(2, 12, 3):
+  print(x)
