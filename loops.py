@@ -39,9 +39,18 @@ for i in range(5):
     print("Lokesh")
     #power of four
     class Solution:
-    def isPowerOfFour(self, n: int) -> bool:
+     def isPowerOfFour(self, n: int) -> bool:
         for i in range(31):
             if n == 4**i:
                 return True
         return False
+    #palindrome number
+    class Solution:
+     def isPalindrome(self, x: int) -> bool:
+        s = str(x)
+        if s==s[::-1]:
+            return True
+        else:
+             return False
+        
         
