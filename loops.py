@@ -37,3 +37,11 @@ for i in range(1, 5):
         #hello
 for i in range(5):
     print("Lokesh")
+    #power of four
+    class Solution:
+    def isPowerOfFour(self, n: int) -> bool:
+        for i in range(31):
+            if n == 4**i:
+                return True
+        return False
+        
