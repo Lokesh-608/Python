@@ -1,8 +1,8 @@
-x = int(input("Enter the number: "))
-s = str(x)
-
-if s == s[::-1]:
-    print("True")
+n = int(input("Enter a number: "))
+for i in range(31):
+    if n == 2 ** i:
+        print(True)
+        break
 else:
-    print("False")
+    print(False)
 
