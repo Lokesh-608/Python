@@ -45,12 +45,11 @@ for i in range(5):
                 return True
         return False
     #palindrome number
-    class Solution:
-     def isPalindrome(self, x: int) -> bool:
-        s = str(x)
-        if s==s[::-1]:
-            return True
-        else:
-             return False
-        
-        
+    x = int(input("Enter the number: "))
+s = str(x)
+
+if s == s[::-1]:
+    print("True")
+else:
+    print("False")
+
