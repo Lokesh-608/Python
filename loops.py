@@ -60,4 +60,12 @@ for i in range(31):
         break
 else:
     print(False)
+#power of three
+n = int(input("Enter a number: "))
+for i in range(31):
+    if n == 3 ** i:
+        print(True)
+        break
+else:
+    print(False)
 
