@@ -98,6 +98,13 @@ two.reverse()
 for i in range(len(one)):
     ans.append(abs(one[i] - two[i]))
 print(ans)
+# 67. Add Binary
+# Given two binary strings a and b, return their sum as a binary string.
+a = "11"
+b = "1"
+num1 = int(a,2)
+num2 = int(b,2)
+print(bin(num1 + num2)[2:])
 
 
 
