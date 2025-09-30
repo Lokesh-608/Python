@@ -99,3 +99,10 @@ for i in range(len(one)):
     ans.append(abs(one[i] - two[i]))
 print(ans)
 
+n = int(input("Enter a number: "))
+for i in range(31):
+    if n == 4 ** i:
+        print(True)
+else:
+    print(False)
+
