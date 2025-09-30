@@ -75,4 +75,27 @@ for i in range(31):
         print(True)
 else:
     print(False)
+ where answer[i] = |leftSum[i] - rightSum[i]|.
+nums = [10,4,8,3]
+ans = []
+one = []
+two = []
+res = 0
+res1 = 0
+for i in range(len(nums)):
+    if i == 0:
+        one.append(0)
+    else:
+        res += nums[i-1]
+        one.append(res)
+for i in range(len(nums)-1,-1,-1):
+    if i == len(nums)-1:
+        two.append(0)
+    else:
+        res1 += nums[i+1]
+        two.append(res1)
+two.reverse()
+for i in range(len(one)):
+    ans.append(abs(one[i] - two[i]))
+print(ans)
 
