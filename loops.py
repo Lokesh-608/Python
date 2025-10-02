@@ -105,6 +105,13 @@ y= "1"
 num1 = int(x,2)
 num2 = int(y,2)
 print(bin(num1 + num2)[2:])
-
+#power of three
+n = int(input("Enter a number: "))
+for i in range(31):
+    if n == 3 ** i:
+        print(True)
+        break
+else:
+    print(False)
 
 
