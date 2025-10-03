@@ -125,3 +125,7 @@ for i in tup:
     if i == 'apple':
         count += 1
 print(count)
+# Convert the list [1, 2, 3, 4, 5] into a tuple.
+li = [1, 2, 3, 4, 5]
+tup2 = tuple(li)
+print(tup2)
