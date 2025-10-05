@@ -123,5 +123,5 @@ tup1 = ("Ashritha",30,50.68,True)
 for i in tup1:
     print(type(i))
 print(tup1)
-#
+
 
