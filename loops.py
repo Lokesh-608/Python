@@ -123,7 +123,5 @@ tup1 = ("Ashritha",30,50.68,True)
 for i in tup1:
     print(type(i))
 print(tup1)
-# Given a tuple (10, 20, 30, 40, 50), print it in reverse order.
-tup = (10, 20, 30, 40, 50)
-print(tuple[::-1])
+
 
