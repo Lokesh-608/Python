@@ -123,5 +123,10 @@ tup1 = ("Ashritha",30,50.68,True)
 for i in tup1:
     print(type(i))
 print(tup1)
+# Concatenate two tuples (1,2,3) and (4,5,6) into one tuple.
+tup1 = (1,2,3)
+tup2 = (4,5,6)
+tup3 = tup1 + tup2
+print(tup3)
 
 
