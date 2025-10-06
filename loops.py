@@ -53,9 +53,11 @@ if s == s[::-1]:
 else:
     print("False")
 #power of two
-class Solution:
-    def isPowerOfTwo(self, n: int) -> bool:
-        for i in range(31):
-            if n == 2**i:
-                return True
-        return False
+n = int(input("Enter a number: "))
+for i in range(31):
+    if n == 2 ** i:
+        print(True)
+        break
+else:
+    print(False)
+
