@@ -22,7 +22,7 @@ for j in i:
         break
 
 for x in range(2, 12, 3):
-  print(x)                                                                                                                                                                                                        XZ
+  print(x)
   #nested loop
 
 for i in range(1, 5):
@@ -49,7 +49,7 @@ for i in range(5):
 s = str(x)
 
 if s == s[::-1]:
-    print("True")  
+    print("True")
 else:
     print("False")
 #right triangle
@@ -163,4 +163,3 @@ for i in range(1, n+1):
 n = 5
 for i in range(n):
     print(" " * (n - i - 1) + "*" * (2*i + 1))
-# update 
