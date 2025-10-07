@@ -22,7 +22,7 @@ for j in i:
         break
 
 for x in range(2, 12, 3):
-  print(x)
+  print(x)                                                                                                                                                                                                        XZ
   #nested loop
 
 for i in range(1, 5):
@@ -56,3 +56,9 @@ else:
 n = 5
 for i in range(1, n + 1):
     print("*" * i)
+# square pattern 
+n = 4
+for i in range(n):
+    for j in range(n):
+        print("*", end="")
+    print()
