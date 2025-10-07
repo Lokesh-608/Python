@@ -1,8 +1,3 @@
-n = int(input("Enter a number: "))
-for i in range(31):
-    if n == 2 ** i:
-        print(True)
-        break
-else:
-    print(False)
-
+n = 5
+for i in range(1, n + 1):
+    print("*" * i)

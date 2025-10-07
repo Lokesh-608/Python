@@ -52,3 +52,7 @@ if s == s[::-1]:
     print("True")
 else:
     print("False")
+#right triangle
+n = 5
+for i in range(1, n + 1):
+    print("*" * i)
