@@ -57,8 +57,12 @@ n = 5
 for i in range(1, n + 1):
     print("*" * i)
 # square pattern 
-n = 4
+n = 5
 for i in range(n):
     for j in range(n):
         print("*", end="")
     print()
+    #inverted triangle
+n = 5
+for i in range(1,n,-1):
+    print("*" * i)
