@@ -49,17 +49,22 @@ for i in range(5):
 s = str(x)
 
 if s == s[::-1]:
-    print("True")
+    print("True")  
 else:
     print("False")
 #right triangle
 n = 5
 for i in range(1, n + 1):
     print("*" * i)
-# square pattern 
+# triangle pattern 
 n = 5
 for i in range(5):
     for j in range(0,i+1):
-        print("*", end="")
+        print("*", end="")  
     print()
- 
+#number triangle
+n = 5
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print(j, end="")
+    print()
