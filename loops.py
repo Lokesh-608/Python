@@ -71,6 +71,6 @@ for i in range(1, n + 1):
 #alphabet triangle
 n = 5
 for i in range(1, n + 1):
-    for j in range(65, 65 + i):
+    for j in range(66, 66 + i):
         print(chr(j), end="")
     print()
