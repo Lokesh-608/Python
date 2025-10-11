@@ -64,13 +64,7 @@ for i in range(5):
     print()
 #number triangle
 n = 5
-for i in range(1, n + 1):
+"for i in range(1, n + 1):"
     for j in range(2, i + 1):
         print(j, end="")
-    print()
-#alphabet triangle
-n = 5
-for i in range(1, n + 1):
-    for j in range(66, 66 + i):
-        print(chr(j), end="")
     print()
