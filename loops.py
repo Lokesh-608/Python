@@ -63,8 +63,9 @@ for i in range(5):
         print("*", end="")  
     print()
 #number triangle
-n = 5
-for i in range(1, n + 1):
-    for j in range(2, i + 1):
-        print(j, end="")
+for i in range(0,5):
+    for j in range(0,5):
+        if(j<=i):
+            print(j+1,end="")
     print()
+        
