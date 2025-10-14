@@ -79,4 +79,16 @@ for i in range(0,5):
         if(j<=i):
             print(j+1,end="")
     print()
+#  #reverse number triangle
+#54321
+#5432
+#543
+#54
+#5
+n = 5
+for i in range(n, 0, -1):
+    for j in range(n, 0, 1):
+        if(j>=i):
+            print(j, end="")
+    print()
         
