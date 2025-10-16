@@ -136,3 +136,12 @@ for i in range(n,0,-1):
         print(i,end=" ")
     print()
 print()
+#aaaaa
+#aaaa
+#aaa
+#aa
+#a
+n = 5
+for i in range(n, 0, -1):
+    print('a' * i)
+print()
