@@ -156,11 +156,12 @@ for i in range(1, n+1):
         print(j, end='')
     print()
     )
-#*
-   #***
-  #*****
- #*******
-#*********
+#****
+#****
+#****
+#****
 n = 5
-for i in range(n):
-    print(" " * (n - i - 1) + "*" * (2*i + 1)
+for i in range(1,5):
+    for j in range(1,5):
+        print("*",end="")
+    print()
