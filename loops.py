@@ -56,18 +56,6 @@ else:
 n = 5
 for i in range(1, n + 1):
     print("*" * i)
-
-#number triangle
-#1
-#12
-#123
-#1234
-#12345
-for i in range(0,5):
-    for j in range(0,5):
-        if(j<=i):
-            print(j+1,end="")
-    print()
 #  #reverse number triangle
 #54321
 #5432
@@ -164,4 +152,15 @@ n = 5
 for i in range(5):
     for j in range(0,i+1):
         print("*", end="")  
+    print()
+number triangle
+#1
+#12
+#123
+#1234
+#12345
+for i in range(0,5):
+    for j in range(0,5):
+        if(j<=i):
+            print(j+1,end="")
     print()
