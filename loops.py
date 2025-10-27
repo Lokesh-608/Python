@@ -10,7 +10,10 @@ for i in li:
 t = ("apple", "mango", "pineapple")
 for i in t:
     print(i)
-
+#string
+l = "lokesh"
+for i in l:
+    print(i)
 #break
 i = [1,2,3,4]
 for j in i:
