@@ -188,3 +188,8 @@ for i in range(n):
                 if j<=i:
                     print(i-j+1,end="")
     print()
+#    1
+#   12
+#  123
+# 1234
+#12345
