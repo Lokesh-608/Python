@@ -193,3 +193,11 @@ for i in range(n):
 #  123
 # 1234
 #12345
+n = 5
+for i in range(n):
+    for j in range(i,n):
+        print(" ",end="")
+    for j in range(i+1):
+                if j<=i:
+                    print(j+1,end="")
+    print()
