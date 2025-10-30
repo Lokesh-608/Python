@@ -6,7 +6,7 @@ for i in range(0, n):
 li = ["lokesh", "varun", "ram"]
 for i in li:
     print(i)
-
+#tuples
 t = ("apple", "mango", "pineapple")
 for i in t:
     print(i)
