@@ -10,7 +10,7 @@ for i in li:
 t = ("apple", "mango", "pineapple")
 for i in t:
     print(i)
-
+#strings
 l = "lokesh"
 for i in l:
     print(i)
