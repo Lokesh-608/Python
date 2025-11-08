@@ -201,6 +201,14 @@ for i in range(n):
                 if j<=i:
                     print(j+1,end="")
     print()
+*
+   ***
+  *****
+ *******
+*********
+n = 5
 
+for i in range(n):
+    print(" "*(n-i-1) + "*"*(2*i+1))
 
     
