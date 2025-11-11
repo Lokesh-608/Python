@@ -80,7 +80,7 @@ print(s[4:])
 #reverse
 s="abcdef"
 print(s[:2:-1])
-#
+
 s = "abcdef"
 print(s[-1:-4:-1])
 
