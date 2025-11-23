@@ -154,6 +154,6 @@ print(type(c))
 #You are given a list that contains integers. You need to return the length of the list.
 arr = [1,2,3,4,5]
 print(len(arr))
-#You are given a list that contains integers. You need to return the sum of the list.
+You are given a list that contains integers. You need to return the sum of the list.
 arr = [1,2,3,4,5]
 print(sum(arr))
