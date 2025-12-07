@@ -166,3 +166,4 @@ for i in range(n):
 # updated
 
 # updated
+int = int(input())
