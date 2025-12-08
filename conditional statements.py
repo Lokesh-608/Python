@@ -119,4 +119,10 @@ if i>s:
    print("i is greater than s")
 else:
    print("s is greater than i")
+#adult or not
+a=20
+if a >=20:
+   print("adult")
+else:
+   print("Not adult")
 

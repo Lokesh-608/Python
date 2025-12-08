@@ -23,8 +23,8 @@ for j in i:
 
 for x in range(2, 12, 3):
   print(x)
-  #nested loop
 
+  #nested loop
 for i in range(1, 5):
     for j in range(i):
         print(i, end=' ')
@@ -37,14 +37,14 @@ for i in range(1, 5):
         #hello
 for i in range(5):
     print("Lokesh")
-    #power of four
+#power of four
     class Solution:
      def isPowerOfFour(self, n: int) -> bool:
         for i in range(31):
             if n == 4**i:
                 return True
         return False
-    #palindrome number
+#palindrome number
     x = int(input("Enter the number: "))
 s = str(x)
 
@@ -163,7 +163,3 @@ for i in range(1, n+1):
 n = 5
 for i in range(n):
     print(" " * (n - i - 1) + "*" * (2*i + 1))
-# updated
-
-# updated
-int = int(input())
