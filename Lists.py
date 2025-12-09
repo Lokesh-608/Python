@@ -48,3 +48,11 @@ b = [2,5,6,7,8,9]
 c = list(set(a) & set(b))
 print(c)
 
+#list
+l = [10,20,30,40]
+n = 25
+r=[]
+for i in l:
+    if l>n:
+        r.append(i)
+        print(r)
