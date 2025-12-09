@@ -87,3 +87,9 @@ print(s[-1:-4:-1])
 s ="lokesh"
 print(s[1:-1])
 
+#palindrome
+s = str(inpt("Enter the string: "))
+if s == s[::-1]:
+    print("It is a palindrome")
+else:
+    print("It is not palindrome")
