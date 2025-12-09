@@ -125,4 +125,11 @@ if a >=20:
    print("adult")
 else:
    print("Not adult")
-
+#check the number is even or odd
+s = int(input("Enter the number: "))
+if s%2==0:
+   print("It is even")
+elif s%3==0:
+   print("It is odd")
+else:
+   print("It is zero")
