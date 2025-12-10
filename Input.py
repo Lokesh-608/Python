@@ -49,4 +49,7 @@ print(type(d))
 #indention
 a = "This is lokesh"
 print(a)
+#
+a = "Lokesh"
+print(a)
   
