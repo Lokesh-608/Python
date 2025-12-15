@@ -164,7 +164,7 @@ n = 6
 for i in range(n):
     print(" " * (n - i - 1) + "*" * (2*i + 1))
     #while loop
-#Exit the loop when i is 3:
+#Exit the loop when i is 3
 i = 1
 while i < 6:
   print(i)
