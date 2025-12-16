@@ -163,7 +163,7 @@ for i in range(1, n+1):
 n = 6
 for i in range(n):
     print(" " * (n - i - 1) + "*" * (2*i + 1))
-    #while loop
+#while loop
 #Exit the loop when i is 3
 i = 1
 while i < 6:
