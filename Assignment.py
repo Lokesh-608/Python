@@ -29,6 +29,10 @@ b=20
 c=b%a
 print(c)
 #Display 1 to 100 using loops
-n=int(input("Enter the integer: "))
-for i in n:
-    print(i)
+for i in range(1,101):
+    print(i,end="")
+#generate multiplication table
+for i in range(1,10):
+    s=+5*i
+    print("5 X",i,"=",s)
+
