@@ -35,4 +35,7 @@ for i in range(1,101):
 for i in range(1,10):
     s=+5*i
     print("5 X",i,"=",s)
-
+#max,min
+a=[10,20]
+print(max(a))
+print(min(a))
