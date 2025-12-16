@@ -39,3 +39,14 @@ for i in range(1,10):
 a=[10,20]
 print(max(a))
 print(min(a))
+#123
+# 23
+#  3
+n = 3
+for i in range(n):
+    for j in range(i):
+        print(" ", end="")
+    for k in range(i+1, n+1):
+        print(k, end="")
+    print()
+
