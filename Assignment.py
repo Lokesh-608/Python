@@ -18,3 +18,13 @@ a=10
 b=20
 c=b-a
 print(c)
+#mult
+a=10
+b=20
+c=b*a
+print(c)
+#division
+a=10
+b=20
+c=b%a
+print(c)
