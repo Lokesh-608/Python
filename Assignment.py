@@ -82,5 +82,11 @@ s=str(input("Enter the String: "))
 print(len(s))
 #8.⁠ ⁠Write a program to read a line from the user and print it in this format:
   # ⁠ You entered: <user_input> ⁠.
-s=input("Enter the String: "))
+s=input("Enter the String: ")
 print(f"""You entered: {s}""")
+#9.⁠ ⁠Write a program that reads your full name and prints it in one line and then in two lines (first name on first line, last name on second).
+full_name=input("Enter the name: ")
+print(full_name)
+f_name,l_name=full_name.split()
+print(f_name)
+print(l_name)
