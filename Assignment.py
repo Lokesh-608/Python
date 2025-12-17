@@ -63,3 +63,11 @@ print(c)
 print("""Hello
 Welcome to Python
 This is a multi-line string""")
+# 4.⁠ ⁠Write a program to take your name as input and print ⁠ "Hello, <name>!" ⁠.
+s=str(input("Enter the name: "))
+print("Hello",s)
+#5.⁠ ⁠Write a program that asks the user for two numbers and prints their sum.
+a=int(input("Enter the number: "))
+b=int(input("Enter the number: "))
+s=a+b
+print(s)
