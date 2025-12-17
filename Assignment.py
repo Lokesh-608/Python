@@ -104,3 +104,11 @@ w=c+d
 s=a+b
 print(w)
 print(s)
+#12.⁠ ⁠Write a program that demonstrates the use of ⁠ sep ⁠ and ⁠ end ⁠ parameters in ⁠ print() ⁠.
+a="String"
+c="method"
+print(a,c,sep="-")
+b="Hello"
+d="world"
+print(b,end=" ")
+print(d)
