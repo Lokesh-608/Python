@@ -59,3 +59,7 @@ c="Ganapavaram"
 print(n)
 print(a)
 print(c)
+#3.⁠ ⁠Write a program that prints a multi-line string using triple quotes.
+print("""Hello
+Welcome to Python
+This is a multi-line string""")
