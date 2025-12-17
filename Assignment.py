@@ -112,3 +112,9 @@ b="Hello"
 d="world"
 print(b,end=" ")
 print(d)
+#13.⁠ ⁠Write a program that prints a formatted table-like output using ⁠ \t ⁠ and ⁠ \n ⁠.
+
+print("Name\tAge\tBranch")
+print("Lokesh\t20\tcse")
+print("Ashri\t20\tcse")
+
