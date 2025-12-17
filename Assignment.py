@@ -49,4 +49,13 @@ for i in range(n):
     for k in range(i+1, n+1):
         print(k, end="")
     print()
-
+#1.⁠ ⁠Write a program to print ⁠ "Hello, World!" ⁠.
+s="Hello, World!"
+print(s)
+#2.⁠ ⁠Write a program to print your name, age, and city on separate lines.
+n="Lokesh"
+a=20
+c="Ganapavaram"
+print(n)
+print(a)
+print(c)
