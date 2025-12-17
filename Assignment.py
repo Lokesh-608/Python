@@ -95,3 +95,12 @@ a=input("Enter the String: ")
 b=input("Enter the String: ")
 c=input("Enter the String: ")
 print(f" {a},{b},{c}")
+#10.⁠ ⁠Write a program that takes two numbers as strings from the user and shows the difference between string concatenation and numeric addition.
+a=int(input("Enter the number: "))
+b=int(input("Enter the number: "))
+c=str(a)
+d=str(b)
+w=c+d
+s=a+b
+print(w)
+print(s)
