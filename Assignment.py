@@ -71,3 +71,9 @@ a=int(input("Enter the number: "))
 b=int(input("Enter the number: "))
 s=a+b
 print(s)
+#6.⁠ ⁠Write a program that asks the user for their age and prints whether they are a minor or an adult (just print the message, no conditions yet).
+a=int(input("Enter the age: "))
+if a>=18:
+    print("An Adult")
+else:
+    print("A Minor")
