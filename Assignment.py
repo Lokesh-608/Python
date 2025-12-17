@@ -77,3 +77,6 @@ if a>=18:
     print("An Adult")
 else:
     print("A Minor")
+#7.⁠ ⁠Write a program that uses ⁠ input() ⁠ to read a string and then prints its length.
+s=str(input("Enter the String: "))
+print(len(s))
