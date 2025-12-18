@@ -117,4 +117,7 @@ print(d)
 print("Name\tAge\tBranch")
 print("Lokesh\t20\tcse")
 print("Ashri\t20\tcse")
+#14.⁠ ⁠Write a program that reads a float from the user and prints it rounded to 2 decimal places.
+num = float(input("Enter a number: "))
+print(round(num, 2))
 
