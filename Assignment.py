@@ -141,3 +141,8 @@ b="DS"
 a,b=b,a
 c=a,b
 print(c)
+#18.⁠ ⁠Write a program to swap two variables *without* using a temporary variable.
+a="CSE"
+b="DS"
+a,b=b,a
+print(a,b)
