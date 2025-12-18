@@ -154,3 +154,14 @@ print(d)
 a,b,c=10,10,10
 d=a,b,c
 print(d)
+#21.⁠ ⁠Write a program that reads two numbers and stores their sum, difference, product, and quotient in four different variables and prints all.
+a=int(input("Enter the value: "))
+b=int(input("Enter the value: "))
+s=a+b
+c=a*b
+f=a-b
+g=a/b
+print(s)
+print(c)
+print(f)
+print(g)
