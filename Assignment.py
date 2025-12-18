@@ -182,3 +182,8 @@ print(list)
 #by using built in function list it shows a error
 x = list("abc")
 print(x)
+#25.⁠ ⁠Write a program that uses a constant-like variable (e.g. ⁠ PI = 3.14 ⁠) and calculates the area of a circle.
+
+r=int(input("Enter the num: "))
+Area=3.14*r*r
+print(Area)
