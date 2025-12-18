@@ -125,3 +125,19 @@ s=5
 print(s)
 #it prints the s only
 print("s")
+
+## B. Variables (16–25)
+
+#16.⁠ ⁠Write a program that stores your name, age, and CGPA in variables and prints them.
+s="Lokesh"
+t="20"
+y="8.8"
+print(s)
+print(t)
+print(y)
+#17.⁠ ⁠Write a program to swap two variables using a temporary variable.
+a="CSE"
+b="DS"
+a,b=b,a
+c=a,b
+print(c)
