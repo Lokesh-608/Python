@@ -175,3 +175,10 @@ length=int(input("enter the num: "))
 breadth=int(input("enter the num: "))
 area=length*breadth
 print(area)
+#24.⁠ ⁠Write a program that shows why using names like ⁠ list ⁠ or ⁠ str ⁠ as variable names is a bad idea.
+list = [1, 2, 3]
+print(list)
+
+#by using built in function list it shows a error
+x = list("abc")
+print(x)
