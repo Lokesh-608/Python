@@ -165,3 +165,8 @@ print(s)
 print(c)
 print(f)
 print(g)
+#22.⁠ ⁠Write a program to show what happens if you reassign a variable from int to string.
+x = 10
+print(x)
+x = "Hello"
+print(x)
