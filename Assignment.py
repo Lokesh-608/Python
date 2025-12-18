@@ -170,3 +170,8 @@ x = 10
 print(x)
 x = "Hello"
 print(x)
+#23.⁠ ⁠Write a program that uses descriptive variable names for calculating the area of a rectangle.
+length=int(input("enter the num: "))
+breadth=int(input("enter the num: "))
+area=length*breadth
+print(area)
