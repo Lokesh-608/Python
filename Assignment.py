@@ -120,4 +120,8 @@ print("Ashri\t20\tcse")
 #14.⁠ ⁠Write a program that reads a float from the user and prints it rounded to 2 decimal places.
 num = float(input("Enter a number: "))
 print(round(num, 2))
-
+#15.⁠ ⁠Write a program that shows the difference between ⁠ print(5) ⁠ and ⁠ print("5") ⁠.
+s=5
+print(s)
+#it prints the s only
+print("s")
