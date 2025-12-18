@@ -146,3 +146,7 @@ a="CSE"
 b="DS"
 a,b=b,a
 print(a,b)
+#19.⁠ ⁠Write a program that assigns the same value to three variables in one line and prints them.
+a,b,c=int(input("Enter the value: "))
+d=a,b,c
+print(d)
