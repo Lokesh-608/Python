@@ -222,3 +222,28 @@ if a==b:
     print("Numbers are equal")
 else:
     print("Not Equal")
+#31.⁠ ⁠Write a program that demonstrates all comparison operators (⁠ ==, !=, >, <, >=, <= ⁠) with sample values.
+a=10
+b=20
+if a==b:
+    print("It is equal")
+elif a!=b:
+    print("It is not equal")
+elif a>b:
+    print("a is greater ")
+elif a<b:
+    print("b is gretaer")
+elif a>=b:
+    print("a s gretaer equal b")
+elif a<+b:
+    print("b is gretaer equa a")
+else:
+    print("no change")
+#32.⁠ ⁠Write a program that uses logical operators (⁠ and ⁠, ⁠ or ⁠, ⁠ not ⁠) to check if a number is in the range 10 to 20.
+#33.⁠ ⁠Write a program that checks if a given year is between 2000 and 2025 and not equal to 2010.
+a = int(input("Enter a year: "))
+
+if 2000 <= a <= 2025 and a != 2010:
+    print("a is between 2000 and 2025 and not equal to 2010.")
+else:
+    print("It is not satisfy")
