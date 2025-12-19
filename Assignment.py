@@ -208,3 +208,10 @@ a=10
 b=2
 d=a**b
 print(d)
+#29.⁠ ⁠Write a program that compares two numbers and prints which one is greater using comparison operators.
+a=10
+b=20
+if a>b:
+    print(a)
+else:
+    print(b)
