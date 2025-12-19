@@ -206,5 +206,5 @@ print(c,d)
 #28.⁠ ⁠Write a program to calculate ⁠ a ⁠ raised to the power ⁠ b ⁠ using ⁠ ** ⁠.
 a=10
 b=2
-c=a**b
+d=a**b
 print(c)
