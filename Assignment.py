@@ -215,3 +215,10 @@ if a>b:
     print(a)
 else:
     print(b)
+#30.⁠ ⁠Write a program that checks if two given numbers are equal or not.
+a=10
+b=20
+if a==b:
+    print("Numbers are equal")
+else:
+    print("Not Equal")
