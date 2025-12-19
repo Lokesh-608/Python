@@ -197,4 +197,14 @@ g=a-b
 f=a*b
 z=a%b
 print(d,g,f,z)
-
+#27.⁠ ⁠Write a program that uses the floor division (⁠ // ⁠) and modulus (⁠ % ⁠) operators and prints the results for two integers.
+a=10
+b=20
+c=a//b
+d=a%b
+print(c,d)
+#28.⁠ ⁠Write a program to calculate ⁠ a ⁠ raised to the power ⁠ b ⁠ using ⁠ ** ⁠.
+a=10
+b=2
+c=a**b
+print(c)
