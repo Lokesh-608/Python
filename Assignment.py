@@ -187,3 +187,14 @@ print(x)
 r=int(input("Enter the num: "))
 Area=3.14*r*r
 print(Area)
+
+### C. Operators (26–45)
+#⁠26.Write a program to add, subtract, multiply, and divide two numbers.
+a=int(input("Enter the num: "))
+b=int(input("Enter the num: "))
+d=a+b
+g=a-b
+f=a*b
+z=a%b
+print(d,g,f,z)
+
