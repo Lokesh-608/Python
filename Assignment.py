@@ -271,4 +271,10 @@ if a%2==0:
     print("It is even ")
 else:
     print("It is not even")
+#38.⁠ ⁠Write a program to check if a number is a multiple of both 3 and 5 using logical operators.
+a=int(input("Enter the number: "))
+if a%3==0 | a%5==0:
+    print("It is multiple of 3 andd 5")
+else:
+    print("It is not multiples of 3 and 4")
     
