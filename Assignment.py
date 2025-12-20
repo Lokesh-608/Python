@@ -247,3 +247,9 @@ if 2000 <= a <= 2025 and a != 2010:
     print("a is between 2000 and 2025 and not equal to 2010.")
 else:
     print("It is not satisfy")
+#34.⁠ ⁠Write a program to show the effect of operator precedence in an expression like ⁠ 3 + 4 * 2 ** 3 ⁠.
+#36.⁠ ⁠Write a program to demonstrate assignment operators (⁠ += ⁠, ⁠ -= ⁠, ⁠ *= ⁠, ⁠ /= ⁠, ⁠ //= ⁠, ⁠ %= ⁠, ⁠ **= ⁠) on a variable.
+a=10
+print(a)
+a+=5
+print(a)
