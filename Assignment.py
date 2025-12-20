@@ -265,3 +265,10 @@ a%=5
 print(a)
 a**=2
 print(a)
+#37.⁠ ⁠Write a program to check if a number is even using the modulus operator.
+a=int(input("Enter the number: "))
+if a%2==0:
+    print("It is even ")
+else:
+    print("It is not even")
+    
