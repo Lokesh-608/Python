@@ -277,4 +277,10 @@ if a%3==0 | a%5==0:
     print("It is multiple of 3 andd 5")
 else:
     print("It is not multiples of 3 and 4")
+#39
+a=int(input("Enter the number: "))
+if a%4==0 | a%3==0:
+    print("It is multiple of 3 andd 5")
+else:
+    print("It is not multiples of 3 and 4")
     
