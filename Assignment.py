@@ -251,7 +251,7 @@ else:
 #36.⁠ ⁠Write a program to demonstrate assignment operators (⁠ += ⁠, ⁠ -= ⁠, ⁠ *= ⁠, ⁠ /= ⁠, ⁠ //= ⁠, ⁠ %= ⁠, ⁠ **= ⁠) on a variable.
 a=10
 print(a)
-a+=5
+a+=4
 print(a)
 a-=5
 print(a)
