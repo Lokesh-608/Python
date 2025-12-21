@@ -263,7 +263,7 @@ a//=4
 print(a)
 a%=5
 print(a)
-a**=2
+a**=3
 print(a)
 #37.⁠ ⁠Write a program to check if a number is even using the modulus operator.
 a=int(input("Enter the number: "))
