@@ -295,4 +295,6 @@ elif c>a&c>b:
     print(c)
 else:
     print("no numbers")
+#40.⁠ ⁠Write a program to demonstrate the difference between ⁠ / ⁠ and ⁠ // ⁠ when dividing integers.
+#
     
