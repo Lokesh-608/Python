@@ -283,4 +283,16 @@ if a%4==0 | a%3==0:
     print("It is multiple of 3 andd 5")
 else:
     print("It is not multiples of 3 and 4")
+#39.⁠ ⁠Write a program that reads three numbers and prints the largest using only comparison operators (no ⁠ max() ⁠).
+a=int(input("Enter the num: "))
+b=int(input("Enter the num: "))
+c=int(input("Enter the num: "))
+if a>b&a>c:
+    print(a)
+elif b>a&b>c:
+    print(b)
+elif c>a&c>b:
+    print(c)
+else:
+    print("no numbers")
     
