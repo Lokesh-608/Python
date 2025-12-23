@@ -344,4 +344,7 @@ if 1 in k:
     print("1 is present in k")
 else:
     print("1 is not present" )
-    
+#not in
+r=[1,2,3,4]
+if 5 not in r:
+    print("5 is not present in r")
