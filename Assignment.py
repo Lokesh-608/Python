@@ -338,3 +338,7 @@ if a>>b:
 a=30
 if a%3&a%9:
     print("it is odd")
+#44.⁠ ⁠Write a program that demonstrates the use of ⁠ in ⁠ and ⁠ not in ⁠ operators on a string.
+k=[1,2,3,4,5]
+if 1 in k:
+    print("1 is present in k")
