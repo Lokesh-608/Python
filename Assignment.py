@@ -342,3 +342,6 @@ if a%3&a%9:
 k=[1,2,3,4,5]
 if 1 in k:
     print("1 is present in k")
+else:
+    print("1 is not present" )
+    
