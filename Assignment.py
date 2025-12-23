@@ -329,3 +329,8 @@ a=3
 b=20
 if a<<b:
     print("b is greater")
+#>>
+a=6
+b=2
+if a>>b:
+    print("a is greater")
