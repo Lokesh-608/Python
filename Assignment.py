@@ -324,3 +324,8 @@ a=10
 b=20
 c=a^b
 print(c)
+#<<
+a=3
+b=20
+if a<<b:
+    print("b is greater")
