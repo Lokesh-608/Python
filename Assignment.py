@@ -348,3 +348,5 @@ else:
 r=[1,2,3,4]
 if 5 not in r:
     print("5 is not present in r")
+else:
+    print("5 is present in r")
