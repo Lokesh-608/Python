@@ -334,3 +334,7 @@ a=6
 b=2
 if a>>b:
     print("a is greater")
+#42.⁠ ⁠Write a program that checks if a number is odd using a bitwise operation.
+a=30
+if a%3&a%9:
+    print("it is odd")
