@@ -306,5 +306,11 @@ a=10
 b=20
 c=a/b
 print(c)
-
+#41.⁠ ⁠Write a program that uses bitwise operators (⁠ & ⁠, ⁠ | ⁠, ⁠ ^ ⁠, ⁠ << ⁠, ⁠ >> ⁠) on two small integers and prints the results.
+a=10
+b=20
+c=30
+#&
+if a>b&a>c:
+    print("a is greater")
     
