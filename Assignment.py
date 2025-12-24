@@ -351,3 +351,10 @@ if 5 not in r:
 else:
     print("5 is present in r")
 #79. Write a program to create a dictionary with keys: ⁠ name ⁠, ⁠ age ⁠, ⁠ city ⁠ and print it.
+p = {
+    "name": "Lokesh",
+    "age": 21,
+    "city": "Hyderabad"
+}
+
+print(p)
