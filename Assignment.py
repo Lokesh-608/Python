@@ -396,5 +396,7 @@ while i<=5:
     break
 i=3
 print(i)
-
-
+#Write a program that checks if a given year is a leap year.
+a=2026
+if a%100==0:
+    print("It is leapyear")
