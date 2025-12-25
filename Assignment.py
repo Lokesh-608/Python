@@ -400,3 +400,7 @@ print(i)
 a=2026
 if a%100==0:
     print("It is leapyear")
+#91.⁠ ⁠Write a program to print numbers from 1 to 10 using a ⁠ for ⁠ loop.
+i=11
+for i in range(1,i):
+    print(i)
