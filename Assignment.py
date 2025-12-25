@@ -379,3 +379,8 @@ elif a<=0:
     print("a is negative")
 else:
     print("a is zero")
+## for loop example
+print("Using for loop:")
+for i in range(1, 6):
+    print(i)
+
