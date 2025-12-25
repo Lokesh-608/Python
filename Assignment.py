@@ -371,3 +371,11 @@ s["college"] = "Malla reddy university"
 
 # Printing updated dictionary
 print(s)
+#46.⁠ ⁠Write a program that uses ⁠ if ⁠, ⁠ elif ⁠, and ⁠ else ⁠ to categorize a number as negative, zero, or positive.
+a=int(input("Enter the number: "))
+if a>=0:
+    print("a is positive")
+elif a<=0:
+    print("a is negative")
+else:
+    print("a is zero")
