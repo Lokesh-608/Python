@@ -406,7 +406,8 @@ for i in range(1,i):
     print(i)
 ## Creating a set of integers
 numbers = {1, 2, 3, 4, 5}
-
-
 print(numbers)
 #192. Write a program that adds an element to a set using ⁠ add() ⁠.
+num = {1, 2, 3}
+num.add(4)
+print(num)
