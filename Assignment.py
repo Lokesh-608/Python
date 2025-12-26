@@ -404,3 +404,8 @@ if a%100==0:
 i=11
 for i in range(1,i):
     print(i)
+## Creating a set of integers
+numbers = {1, 2, 3, 4, 5}
+
+
+print(numbers)
