@@ -415,3 +415,13 @@ print(num)
 num= {1, 2, 3}
 num.update([4, 5, 6])
 print(num)
+#94. Write a program that removes an element from a set using ⁠ remove() ⁠ and ⁠ discard() ⁠ and shows the difference.
+num = {1, 2, 3}
+
+#  remove()
+num.remove(2)   # Removes element, error if not found
+print( num)
+
+#  discard()
+num.discard(5)  # Does NOT give error if element not found
+print( num)
