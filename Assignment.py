@@ -411,3 +411,7 @@ print(numbers)
 num = {1, 2, 3}
 num.add(4)
 print(num)
+#193. Write a program that adds multiple elements to a set using ⁠ update() ⁠.
+num= {1, 2, 3}
+num.update([4, 5, 6])
+print(num)
