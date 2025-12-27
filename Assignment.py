@@ -422,6 +422,4 @@ num = {1, 2, 3}
 num.remove(2)   # Removes element, error if not found
 print( num)
 
-#  discard()
-num.discard(5)  # Does NOT give error if element not found
-print( num)
+#
