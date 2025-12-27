@@ -410,6 +410,7 @@ print(numbers)
 #192. Write a program that adds an element to a set using ⁠ add() ⁠.
 num = {1, 2, 3}
 num.add(4)
+num.add(5)
 print(num)
 #193. Write a program that adds multiple elements to a set using ⁠ update() ⁠.
 num= {1, 2, 3}
