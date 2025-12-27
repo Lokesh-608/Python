@@ -423,4 +423,3 @@ num = {1, 2, 3}
 num.remove(2)   # Removes element, error if not found
 print( num)
 
-#
