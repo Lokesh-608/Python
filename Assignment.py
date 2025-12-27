@@ -398,7 +398,7 @@ i=3
 print(i)
 #Write a program that checks if a given year is a leap year.
 a=2026
-if a%100==0:
+if a%4==0:
     print("It is leapyear")
 #91.⁠ ⁠Write a program to print numbers from 1 to 10 using a ⁠ for ⁠ loop.
 i=11
