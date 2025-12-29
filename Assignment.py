@@ -392,7 +392,7 @@ while i <= 5:
     i += 1
 #48.⁠ ⁠Write a program that uses the ⁠ break ⁠ keyword to exit a loop when a certain condition is met.
 i=1
-while i<=5:
+while i<=6:
     break
 i=3
 print(i)
