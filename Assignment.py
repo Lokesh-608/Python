@@ -414,7 +414,7 @@ num.add(5)
 print(num)
 #193. Write a program that adds multiple elements to a set using ⁠ update() ⁠.
 num= {1, 2, 3}
-num.update([4, 5, 6,7])
+num.update([4, 5, 6,7,8])
 print(num)
 #94. Write a program that removes an element from a set using ⁠ remove() ⁠ and ⁠ discard() ⁠ and shows the difference.
 num = {1, 2, 3}
