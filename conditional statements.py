@@ -131,5 +131,4 @@ if s%2==0:
    print("It is even")
 elif s%9==0:
    print("It is odd")
-else:
-   print("It is zero")
+
