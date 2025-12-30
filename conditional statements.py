@@ -120,8 +120,8 @@ if i>s:
 else:
    print("s is greater than i")
 #adult or not
-a=20
-if a >=20:
+a=10
+if a >=10:
    print("adult")
 else:
    print("Not adult")
