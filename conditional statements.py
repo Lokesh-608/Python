@@ -129,7 +129,7 @@ else:
 s = int(input("Enter the number: "))
 if s%2==0:
    print("It is even")
-elif s%3==0:
+elif s%9==0:
    print("It is odd")
 else:
    print("It is zero")
