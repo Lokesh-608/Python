@@ -114,8 +114,8 @@ if i%2==0:
       print("the number is not even")
 #greatest of two numbers
 i = int(input("Enter number: "))
-s = int(input("Enter number: "))
-if i>s:
+t = int(input("Enter number: "))
+if i>t:
    print("i is greater than s")
 else:
    print("s is greater than i")
