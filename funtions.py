@@ -17,3 +17,8 @@ def welcome(name):
     print("Welcome,", name)
 
 welcome("Lokesh")
+#square
+def square(n):
+    return n * n
+
+print(square(4))
