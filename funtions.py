@@ -12,3 +12,8 @@ def add(a, b):
     return a * b
 
 print(add(3, 3))
+#name
+def welcome(name):
+    print("Welcome,", name)
+
+welcome("Lokesh")
