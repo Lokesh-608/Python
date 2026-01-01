@@ -31,4 +31,15 @@ def even_odd(n):
 
 even_odd(7)
 #Given an array of integers nums, return the number of good pairs.A pair (i, j) is called good if nums[i] == nums[j] and i < j.
-
+class Solution:
+    def numIdenticalPairs(self, nums: List[int]) -> int:
+        count={}
+        pairs=0
+        for num in nums:
+            if num in count:
+                pairs+=count[num]
+                count[num]+=1
+            else:
+                count[num]=1
+        return pairs
+        
