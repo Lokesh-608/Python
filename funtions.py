@@ -51,6 +51,16 @@ class Solution:
             if heights[i] != expected[i]:
                 count += 1
         return count
+#Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+
+class solution:
+    def sortedSquares(self, nums: List[int]) -> List[int]:
+        a=[]
+        for i in nums:
+            a.append(i*i)
+        a.sort()
+        return a
+
 
  
 
