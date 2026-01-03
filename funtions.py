@@ -62,7 +62,10 @@ class solution:
         return a
 
 #circle area
-
+def circle_area(r):
+    pi=3.114
+    a=pi*r*r
+    return a
  
 
 
