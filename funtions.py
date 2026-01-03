@@ -70,7 +70,13 @@ def circle_area(r):
 def rectangle_area(l,b):
     return l*b
 print(rectangle_area(4,5))
-
+#factorial
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*factorial(n-1)
+    print(factorial(5))
 
  
 
