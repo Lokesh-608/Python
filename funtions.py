@@ -66,6 +66,12 @@ def circle_area(r):
     pi=3.114
     a=pi*r*r
     return a
+#area of rectangle
+def rectangle_area(l,b):
+    return l*b
+print(rectangle_area(4,5))
+
+
  
 
 
