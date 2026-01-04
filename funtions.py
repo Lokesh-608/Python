@@ -88,6 +88,8 @@ def factorial(n):
         print(fibonacci(6))
     #prime number
     def is_prime(n):
+        if n<=1:
+            
 
  
 
