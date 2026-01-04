@@ -87,9 +87,20 @@ def factorial(n):
             return fibonacci(n-1)+fibonacci(n-2)
         print(fibonacci(6))
     #prime number
-    def is_prime(n):
-        if n<=1:
+    def is_prime(num):
+        if num <= 1:
             return False
+
+        for i in range(2, num):
+            if num % i == 0:
+                return False
+    return True
+
+
+
+
+        
+        
 
 
  
