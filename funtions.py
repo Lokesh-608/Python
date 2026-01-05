@@ -95,6 +95,7 @@ def factorial(n):
             if num % i == 0:
                 return False
     return True
+print(is_prime(11))
 
 
 
