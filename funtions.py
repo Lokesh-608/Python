@@ -117,7 +117,9 @@ def is_palindrome(s:str):
         else:
             return False
 #largest number in list
-
+def largest_number(n):
+    n=[3,5,6,7,2]
+    return max(n)
 
 
 
