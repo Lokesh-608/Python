@@ -124,6 +124,9 @@ def largest_number(n):
 def is_smallest_number(n):
     n=[3,4,5,6,1]
     return min(n)
+#count vowels in string
+
+
 
 
 
