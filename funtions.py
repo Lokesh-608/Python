@@ -120,6 +120,8 @@ def is_palindrome(s:str):
 def largest_number(n):
     n=[3,5,6,7,2]
     return max(n)
+#smallest number in list
+
 
 
 
