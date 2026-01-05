@@ -101,6 +101,14 @@ def reverse_string(s):
     return s[::-1]
 a="Hello World"
 print(reverse_string(a))
+#palindrome
+def is_palindrome(s:str):
+    s="madam"
+    if s==s[::-1]:
+        return True
+    else:
+        return False
+
 
 
 
