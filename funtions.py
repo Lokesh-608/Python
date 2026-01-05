@@ -108,6 +108,14 @@ def is_palindrome(s:str):
         return True
     else:
         return False
+    #anagram
+    def is_anagram(s1,s2):
+        s1="listen"
+        s2="silent"
+        if sorted(s1)==sorted(s2):
+            return True
+        else:
+            return False
 
 
 
