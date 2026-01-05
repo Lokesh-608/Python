@@ -125,6 +125,13 @@ def is_smallest_number(n):
     n=[3,4,5,6,1]
     return min(n)
 #count vowels in string
+def count_vowels(s):
+    s="hello world"
+    count=0
+    for i in s:
+        if i.lower() in 'aeiou':
+            count+=1
+    return count
 
 
 
