@@ -96,6 +96,13 @@ def factorial(n):
                 return False
     return True
 print(is_prime(11))
+#reverse string
+def reverse_string(s):
+    return s[::-1]
+a="Hello World"
+print(reverse_string(a))
+
+
 
 
 
