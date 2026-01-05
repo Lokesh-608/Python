@@ -95,7 +95,7 @@ def factorial(n):
             if num % i == 0:
                 return False
     return True
-print(is_prime(11))
+
 #reverse string
 def reverse_string(s):
     return s[::-1]
