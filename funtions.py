@@ -121,7 +121,9 @@ def largest_number(n):
     n=[3,5,6,7,2]
     return max(n)
 #smallest number in list
-
+def is_smallest_number(n):
+    n=[3,4,5,6,1]
+    return min(n)
 
 
 
