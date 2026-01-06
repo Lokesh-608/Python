@@ -148,7 +148,11 @@ def second_largest(n):
     n.sort()
     return n[-2]
 #find second smallest number in list
-
+def second_smallest(n):
+    n=[5,4,3,2,1]
+    n=list(set(n))
+    n.sort()
+    return n[1]
 
 
 
