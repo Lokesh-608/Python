@@ -142,6 +142,11 @@ def merge_lists(l1,l2):
     l2=[4,5,6]
     return l1+l2
 #find second largest number in list
+def second_largest(n):
+    n=[1,2,3,4,5]
+    n=list(set(n))
+    n.sort()
+    return n[-2]
 
 
 
