@@ -141,6 +141,7 @@ def merge_lists(l1,l2):
     l1=[1,2,3]
     l2=[4,5,6]
     return l1+l2
+#find second largest number in list
 
 
 
