@@ -153,6 +153,11 @@ def second_smallest(n):
     n=list(set(n))
     n.sort()
     return n[1]
+#count words in string
+def count_words(s):
+    s="Lokesh"
+    w=s.split()
+    return len(w)
 
 
 
