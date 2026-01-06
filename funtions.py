@@ -132,6 +132,9 @@ def count_vowels(s):
         if i.lower() in 'aeiou':
             count+=1
     return count
+#remove duplicates from list
+
+
 
 
 
