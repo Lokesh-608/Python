@@ -137,7 +137,10 @@ def remove_duplicates(n):
     n=[1,2,3,4,5,6,7,8,1,2,3]
     return list(set(n))
 #merge two lists
-
+def merge_lists(l1,l2):
+    l1=[1,2,3]
+    l2=[4,5,6]
+    return l1+l2
 
 
 
