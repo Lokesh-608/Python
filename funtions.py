@@ -147,6 +147,7 @@ def second_largest(n):
     n=list(set(n))
     n.sort()
     return n[-2]
+#find second smallest number in list
 
 
 
