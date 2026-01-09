@@ -55,7 +55,7 @@ class Solution:
 
 class solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
-        a=[]
+        b=[]
         for i in nums:
             a.append(i*i)
         a.sort()
@@ -161,6 +161,7 @@ def count_words(s):
 #convert celsius to fahrenheit
 def celsius_to_fahrenheit(c):
     return (c*9/5)+32
+#convert fahrenheit to celsius
 
 
 
