@@ -171,7 +171,8 @@ def factorial(n):
         print("x is greater than 20")
     else:
         print("x is not greater than 20")
-        
+    #contains duplicate 2
+    
 
 
 
