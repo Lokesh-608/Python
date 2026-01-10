@@ -172,7 +172,13 @@ def factorial(n):
     else:
         print("x is not greater than 20")
     #contains duplicate 2
-    
+    def containsDuplicate(nums: List(int))->bool:
+        numsset=set()
+        for num in nums:
+            if num in numsset:
+                return True
+            numset.add(num)
+            return False
 
 
 
