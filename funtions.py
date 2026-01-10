@@ -166,7 +166,11 @@ def factorial(n):
         return n*factorial(n-1)
     print(factorial(5))
     #conditional statements
-   
+    x=25
+    if x>20:
+        print("x is greater than 20")
+
+
 
 
         
