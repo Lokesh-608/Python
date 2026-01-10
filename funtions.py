@@ -158,12 +158,7 @@ def count_words(s):
     s="Lokesh"
     w=s.split()
     return len(w)
-#convert celsius to fahrenheit
-def celsius_to_fahrenheit(c):
-    return (c*9/5)+32
-#convert fahrenheit to celsius
-def fahrenheit_to_celsius(f):
-    return (f-32)*5/9
+#find factorial using recursion
 
 
 
