@@ -1,4 +1,7 @@
 #functions
+from typing import List
+
+
 def say_hello():
     print("Hello, welcome to Python!")
 say_hello()
@@ -177,8 +180,9 @@ def factorial(n):
         for num in nums:
             if num in numsset:
                 return True
-            numset.add(num)
+            numsset.add(num)
             return False
+#maxmimum product
 
 
 
