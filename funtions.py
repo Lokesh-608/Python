@@ -187,12 +187,12 @@ class Solution:
     def maxProduct(self, nums:List[int])->int:
         nums.sort()
         return (nums[-1]-1)*(nums[-2]-1)
-#actorial of a number
-
-
-        
-        
-
+#factorial of a number
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*factorial(n-1)
 
  
 
