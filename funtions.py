@@ -183,8 +183,11 @@ def factorial(n):
             numsset.add(num)
             return False
 #maxmimum product
-
-
+class Solution:
+    def maxProduct(self, nums:List[int])->int:
+        nums.sort()
+        return (nums[-1]-1)*(nums[-2]-1)
+#actorial of a number
 
 
         
