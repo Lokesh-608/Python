@@ -121,7 +121,7 @@ def is_palindrome(s:str):
             return False
 #largest number in list
 def largest_number(n):
-    n=[3,5,6,7,2]
+    n=[3,5,6,7,2,9]
     return max(n)
 #smallest number in list
 def is_smallest_number(n):
