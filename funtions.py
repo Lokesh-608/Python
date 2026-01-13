@@ -21,8 +21,10 @@ def welcome(name):
 
 welcome("Lokesh")
 #square
-def square(n):
-    return n * n
+def square(s):
+    return s * s
+
+
 
 print(square(4))
 #even or odd
