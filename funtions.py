@@ -1,4 +1,5 @@
 #functions
+from operator import mul
 from typing import List
 
 
@@ -14,7 +15,7 @@ print(add(5, 3))
 def add(a, b):
     return a * b
 
-print(add(3, 3))
+print(mul(3, 3))
 #name
 def welcome(name):
     print("Welcome,", name)
