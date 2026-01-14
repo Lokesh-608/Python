@@ -19,7 +19,7 @@ print(add(3, 3))
 def welcome(name):
     print("Welcome,", name)
 
-welcome("Lokesh")
+welcome("Python learner")
 #square
 def square(s):
     return s * s
