@@ -6,8 +6,8 @@ def say_hello():
     print("Hello, welcome to Python!")
 say_hello()
 #add
-def add(a, b):
-    return a + b
+def add(a, d):
+    return a + d
 
 print(add(5, 3))
 #mul
