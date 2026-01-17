@@ -206,6 +206,10 @@ def sum_of_digits(n):
     print(sum_of_digits(1234))
     #power of a number
     def power(base,exp):
+        if exp ==0:
+            return 1
+        else:
+            return base*power(base,exp-1)
 
 
  
