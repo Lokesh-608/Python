@@ -204,6 +204,8 @@ def sum_of_digits(n):
     else:
         return n%10+sum_of_digits(n/10)
     print(sum_of_digits(1234))
+    #power of a number
+    
 
  
 
