@@ -210,6 +210,7 @@ def sum_of_digits(n):
             return 1
         else:
             return base*power(base,exp-1)
+        print(power(2,3))
 
 
  
