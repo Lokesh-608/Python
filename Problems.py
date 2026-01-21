@@ -11,9 +11,9 @@ else:
     else:
         print("It is prime")
 #Check Palindrome Number
-num =int(input("Enter the number: "))
-n = str(num)
-if n == n[::-1]:
+num =str(input("Enter the number: "))
+
+if num== num[::-1]:
     print("It is palindrome")
 else:
     print("It is not palindrome")
@@ -40,6 +40,9 @@ for i in range(n):
     next=f+l
     f=l
     l=next
-
+#Reverse string
+s=input("Enter the string: ")
+rev=s[::-1]
+print(rev)
 
 
