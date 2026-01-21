@@ -17,5 +17,21 @@ if n == n[::-1]:
     print("It is palindrome")
 else:
     print("It is not palindrome")
-     
+    #Check Armstrong Number
+num=int(input("Enter the numbe: "))
+original = num
+n=str(num)
+count = len(n)
+sum=0
+for ch in n:
+    digit=int(ch)
+    total=digit**count
+    sum+=total
+    if sum==original:
+        print("It is armstrong")
+    else:
+        print("It is not a armstrong")
+
+
+
 
