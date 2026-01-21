@@ -31,7 +31,15 @@ for ch in n:
         print("It is armstrong")
     else:
         print("It is not a armstrong")
-
+#Print Fibonacci Series
+n=int(input("Enter the numbe: "))
+f=0
+l=1
+for i in range(n):
+    print(f)
+    next=f+l
+    f=l
+    l=next
 
 
 
