@@ -44,5 +44,25 @@ for i in range(n):
 s=input("Enter the string: ")
 rev=s[::-1]
 print(rev)
+#Second largest in array
+a = input("Enter the numbers: ")
+s = a.split()
+
+n = []
+for ch in s:
+    n.append(int(ch))
+
+large = n[0]
+second = n[0]
+
+for i in n:
+    if i > large:
+        second = large
+        large = i
+    elif i < large and i > second:
+        second = i
+
+print("Second largest number is:", second)
+
 
 
