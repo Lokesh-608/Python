@@ -63,6 +63,14 @@ for i in n:
         second = i
 
 print("Second largest number is:", second)
-
+#Anagram check
+a=str(input("Enter the name: "))
+b=str(input("Enter the name: "))
+c=len(a)
+d=len(b)
+if c==d:
+    print("It is anagram")
+else:
+    print("It is not anagram")
 
 
