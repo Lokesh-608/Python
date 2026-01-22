@@ -72,5 +72,13 @@ if c==d:
     print("It is anagram")
 else:
     print("It is not anagram")
+#Remove duplicates
+l=[10,20,30,40,50,10]
+a=[]
+for i in l:
+    if i not in a:
+        a.append(i)
+print(a)
+    
 
 
