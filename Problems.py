@@ -91,6 +91,12 @@ s=0
 for i in range(1,n+1):
     s=s+i
 print(s)
-
+#check even or odd
+n=int(input("Enter the number: "))
+if n%2==0:
+    print("It is even")
+else:
+    print("It is odd")
+ 
 
 
