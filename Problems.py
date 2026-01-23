@@ -97,6 +97,16 @@ if n%2==0:
     print("It is even")
 else:
     print("It is odd")
+#fizzbuzz
+n=int(input("Enter the number: "))
+if n%6==0 and n%9==0:
+    print("It is fizbuzz")
+elif n%6==0:
+    print("It is fizz")
+elif n%9==0:
+    print("It is buzz")
+else:
+    print("none")
  
 
 
