@@ -115,7 +115,7 @@ class Solution:
     def sumOfUnique(self, nums: List[int]) -> int:
         d = {}
 
-        # Count frequency of each number
+ 
         for num in nums:
             if num in d:
                 d[num] += 1
@@ -123,7 +123,7 @@ class Solution:
                 d[num] = 1
 
         total = 0
-        # Sum numbers that appear exactly once
+       
         for key, value in d.items():
             if value == 1:
                 total += key
