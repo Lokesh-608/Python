@@ -1,4 +1,7 @@
 #Check whether a number is Prime
+from rpds import List
+
+
 num = int(input("Enter a number: "))
 
 if num <= 1:
@@ -107,6 +110,25 @@ elif n%9==0:
     print("It is buzz")
 else:
     print("none")
+#sum of unique elements
+class Solution:
+    def sumOfUnique(self, nums: List[int]) -> int:
+        d = {}
+
+        # Count frequency of each number
+        for num in nums:
+            if num in d:
+                d[num] += 1
+            else:
+                d[num] = 1
+
+        total = 0
+        # Sum numbers that appear exactly once
+        for key, value in d.items():
+            if value == 1:
+                total += key
+
+        return total
  
 
 
