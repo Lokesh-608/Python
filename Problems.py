@@ -114,8 +114,6 @@ else:
 class Solution:
     def sumOfUnique(self, nums: List[int]) -> int:
         d = {}
-
- 
         for num in nums:
             if num in d:
                 d[num] += 1
@@ -129,6 +127,18 @@ class Solution:
                 total += key
 
         return total
+#Best Time to Buy and Sell Stock
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        sum = 0
+        min = prices[0]
+        for i in range(len(prices)):
+            n = prices[i] - min
+            if n > sum:
+                sum = n
+            if prices[i] < min:
+                min = prices[i]
+        return sum
  
 
 
