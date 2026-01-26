@@ -139,6 +139,19 @@ class Solution:
             if prices[i] < min:
                 min = prices[i]
         return sum
- 
+#lenth of last word
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        c=0
+        for ch in s[::-1]:
+            if ch==" " and c==0:
+                continue
+            elif ch!=" ":
+                c+=1
+            elif ch==" " and c>0:
+                break
+        return c
+
+               
 
 
