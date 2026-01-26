@@ -139,7 +139,7 @@ class Solution:
             if prices[i] < min:
                 min = prices[i]
         return sum
-#lenth of last word
+#length of last word
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         c=0
