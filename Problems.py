@@ -166,6 +166,16 @@ for ch in s:
         t+=ch
 print(t)
 #count the words
+s = input("Enter the name: ")
+t = {}
+
+for ch in s:
+    if ch in t:
+        t[ch] += 1
+    else:
+        t[ch] = 1
+
+print(t)
 
 
 
