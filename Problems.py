@@ -176,6 +176,19 @@ for ch in s:
 
 print(t)
 #First Unique Character in a String
+s = input("Enter the name: ")
+t = {}
+for ch in s:
+    if ch in t:
+        t[ch] += 1
+    else:
+        t[ch] = 1
+for i in range(len(s)):
+    if t[s[i]] == 1:
+        print(i)
+        break
+else:
+    print(-1)
 
 
 
