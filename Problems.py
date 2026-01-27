@@ -158,6 +158,7 @@ for ch in s:
     if ch  in 'aeiou':
         t+=1 
 print(t)
-      
+#remove the spaces
+
 
 
