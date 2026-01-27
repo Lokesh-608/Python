@@ -165,5 +165,7 @@ for ch in s:
     if ch!=" ":
         t+=ch
 print(t)
+#count the words
+
 
 
