@@ -159,6 +159,11 @@ for ch in s:
         t+=1 
 print(t)
 #remove the spaces
-
+s=input("Enter the name: ")
+t=" "
+for ch in s:
+    if ch!=" ":
+        t+=ch
+print(t)
 
 
