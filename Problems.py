@@ -151,7 +151,7 @@ class Solution:
             elif ch==" " and c>0:
                 break
         return c
-
+#count vowels
                
 
 
