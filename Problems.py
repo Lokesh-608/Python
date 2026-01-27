@@ -152,6 +152,12 @@ class Solution:
                 break
         return c
 #count vowels
-               
+s=input("Enter the name: ")
+t=0
+for ch in s:
+    if ch  in 'aeiou':
+        t+=1 
+print(t)
+      
 
 
