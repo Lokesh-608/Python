@@ -205,6 +205,13 @@ class Solution:
 
         return e
 #2283. Check if Number Has Equal Digit Count and Digit Value
-
+class Solution:
+    def digitCount(self, num: str) -> bool:
+        for i in range(len(num)):
+            t = num.count(str(i))
+            f = int(num[i])
+            if t != f:
+                return False
+        return True
 
 
