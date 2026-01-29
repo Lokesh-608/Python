@@ -217,4 +217,9 @@ class Solution:
 y=int(input("Enter the year: "))
 if(y%4==0 and y%100!=0) or (y%400==0):
     print("It is leap year")
-
+#vote eligibility
+def vote_eligible(age):
+    if age>=18:
+        return "Eligible to vote"
+    else:
+        return "Not eligible to vote"
