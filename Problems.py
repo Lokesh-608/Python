@@ -224,7 +224,7 @@ def vote_eligible(age):
     else:
         return "Not eligible to vote"
     #maximum product of subarray
-    class Solution:
+class Solution:
      def maxProduct(self, nums: List[int]) -> int:
         cmax = nums[0]
         cmin = nums[0]
@@ -241,3 +241,4 @@ def vote_eligible(age):
             ans = max(ans, cmax)
         return ans
 
+   
