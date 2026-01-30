@@ -223,3 +223,5 @@ def vote_eligible(age):
         return "Eligible to vote"
     else:
         return "Not eligible to vote"
+    #maximum product of subarray
+    
