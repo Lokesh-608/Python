@@ -252,6 +252,11 @@ class Solution:
     def countSegments(self, s: str) -> int:
         return len(s.split())
 #power of a number
+def power(base, exp):
+    res = 1
+    for i in range(exp):
+        res = res * base
+    return res
 
 
    
