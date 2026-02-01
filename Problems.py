@@ -257,6 +257,8 @@ def power(base, exp):
     for i in range(exp):
         res = res * base
     return res
+#robot return to origin
+
 
 
    
