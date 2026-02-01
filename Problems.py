@@ -276,7 +276,14 @@ class Solution:
         else:
             return False
 #check perfect number
-
+num=int(input("enter the number: "))
+sum=0
+for i in range(1,num):
+    if num%1==0:
+        sum+=i
+if sum==num:
+    print("It is perfect number")
+   
 
             
         
