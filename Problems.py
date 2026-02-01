@@ -275,7 +275,8 @@ class Solution:
             return True
         else:
             return False
-   
+#check perfect number
+
 
             
         
