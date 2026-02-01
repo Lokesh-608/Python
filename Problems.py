@@ -258,7 +258,28 @@ def power(base, exp):
         res = res * base
     return res
 #robot return to origin
+class Solution:
+    def judgeCircle(self, moves: str) -> bool:
+        h=0
+        v=0
+        for ch in moves:
+            if ch == 'R':
+                h+=1
+            elif ch == 'L':
+                h-=1
+            elif ch == 'U':
+                v+=1
+            elif ch ==  'D':
+                v-=1
+        if h==0 and v==0:
+            return True
+        else:
+            return False
+   
 
+            
+        
+        
 
 
    
