@@ -296,12 +296,17 @@ class Solution:
             else:
                 p2-=1
         return a
-
-        
-        
-
-            
-        
+#remove element
+s=int(input("Enter the number: "))
+a=[]
+n=int(input("Enter the number of elements: "))
+for i in range(n):
+    e=int(input("Enter the element: "))
+    a.append(e)
+print(a)
+while s in a:
+    a.remove(s)
+print(a)
         
 
 
