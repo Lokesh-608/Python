@@ -315,7 +315,6 @@ if s*s==n:
     print("It is perfect square")
 else:
     print("It is not perfect square")
-        
-
+#triangle pattern
 
    
