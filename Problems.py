@@ -307,6 +307,8 @@ print(a)
 while s in a:
     a.remove(s)
 print(a)
+#check perfect square
+
         
 
 
