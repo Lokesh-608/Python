@@ -308,7 +308,11 @@ while s in a:
     a.remove(s)
 print(a)
 #check perfect square
-
+import math
+n=int(input("Enter the number: "))
+s=int(math.sqrt(n))
+if s*s==n:
+    print("It is perfect square")
         
 
 
