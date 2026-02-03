@@ -313,6 +313,8 @@ n=int(input("Enter the number: "))
 s=int(math.sqrt(n))
 if s*s==n:
     print("It is perfect square")
+else:
+    print("It is not perfect square")
         
 
 
