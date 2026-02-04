@@ -329,6 +329,12 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
 #remove vowels
-
+s=input("Enter the name: ")
+t=""
+v="aeiouAEIOU"
+for ch in s:
+    if ch not in v:
+        t+=ch
+print(t)
 
    
