@@ -336,5 +336,5 @@ for ch in s:
     if ch not in v:
         t+=ch
 print(t)
-
-   
+#check power of two
+ 
