@@ -342,3 +342,4 @@ if n>0 and (n & (n-1))==0:
     print("It is power of two")
 else:
     print("It is not power of two")
+#Two Sum II - Input Array Is Sorted
